@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{75BC6E2B-B380-4CFB-BAF2-BA7C568E1778}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nature</RootNamespace>
+    <AssemblyName>Nature.DataAccessLibrary</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\_dll\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\_dll\bin\Nature.DataAccessLibrary.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Nature.DataAccessLibrary.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\DalCollection.cs" />
+    <Compile Include="Data\DataAccessLibrary.cs" />
+    <Compile Include="Data\DataAccessLibrarySQL.cs" />
+    <Compile Include="Data\OdbcDAL.cs" />
+    <Compile Include="Data\OleDbDAL.cs" />
+    <Compile Include="Data\OracleClientDAL.cs" />
+    <Compile Include="Data\Part\DataLog.cs" />
+    <Compile Include="Data\SqlClientDAL.cs" />
+    <Compile Include="Data\Part\ManagerJson.cs" />
+    <Compile Include="Data\Part\ManagerParameter.cs" />
+    <Compile Include="Data\Part\ManagerTran.cs" />
+    <Compile Include="Data\Part\ManagerWebModel.cs" />
+    <Compile Include="Data\Part\ModifyData.cs" />
+    <Compile Include="Data\Part\SelectData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Data\CommonFactory.cs" />
+    <Compile Include="Data\DALFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="数据访问函数库的结构图.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nature.Common\Nature.Common.csproj">
+      <Project>{55DC3025-75A9-441C-9D75-7652E46900F5}</Project>
+      <Name>Nature.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

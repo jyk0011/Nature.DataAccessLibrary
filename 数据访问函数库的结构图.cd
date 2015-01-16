@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="工厂部分">
+    <Position X="6.885" Y="0.823" Height="0.542" Width="0.731" />
+  </Comment>
+  <Comment CommentText="扩展部分">
+    <Position X="9.885" Y="3.853" Height="1.042" Width="0.784" />
+  </Comment>
+  <Comment CommentText="主体部分">
+    <Position X="5.854" Y="11.916" Height="0.718" Width="0.7" />
+  </Comment>
+  <Class Name="Nature.Data.DataAccessLibrary">
+    <Position X="3.5" Y="4.5" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>kQKMAYEAAAIQCqgDACoADEYEgCQAKABZICAEBAAQAAA=</HashCode>
+      <FileName>Data\DataAccessLibrary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nature.Data.Part.ManagerTran">
+    <Position X="7.5" Y="3.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAABAAAAAAAAAACAAAAAAQAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Data\Part\ManagerTran.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.Data.Part.ManagerParameter">
+    <Position X="7.5" Y="8.5" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAQCAAACAAAAAABAQAAAAAgAAAAAAA=</HashCode>
+      <FileName>Data\Part\ManagerParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.Data.CommonFactory">
+    <Position X="7.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAIAAIAAAEAAAAEAAAAABAAAAAAACAAAAAQAAA=</HashCode>
+      <FileName>Data\CommonFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.Data.OracleClientDal">
+    <Position X="4" Y="13.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\OracleClientDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.Data.Part.ManagerWebModel">
+    <Position X="7.5" Y="5.75" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABIAAAAAAAEAAACAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Part\ManagerWebModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.Data.OdbcDal">
+    <Position X="4" Y="17.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\OdbcDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.Data.OleDbDal">
+    <Position X="4" Y="15.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\OleDbDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.Data.Part.ModifyData">
+    <Position X="7.5" Y="14.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAEAAAAAAAAAAACAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Data\Part\ModifyData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.Data.Part.SelectData">
+    <Position X="7.5" Y="11.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EACAAAAAAAAAAAACAAAACAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Part\SelectData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.Data.Part.ManagerJson">
+    <Position X="7.5" Y="17" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAQAAAAAQACAAAAAAAAAAACAAAAAQAAAA=</HashCode>
+      <FileName>Data\Part\ManagerJson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.Data.DalCollection">
+    <Position X="12" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAACAAAAAgAAA=</HashCode>
+      <FileName>Data\DalCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.Data.DalFactory">
+    <Position X="3.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Data\DALFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Nature.Data.IDal">
+    <Position X="3.5" Y="2" Width="3" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="Nature.Data.DataType">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAKAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\CommonFactory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>
